@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>KeyWestDynasty</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="{% static 'img/favicon.ico' %}" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'app/lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'app/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'app/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">*</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Power Rankings</a>
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="header">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">Season 5</h3>
+                    <h1 class="display-3 mb-3">Key West Dynasty</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <!-- About Start -->
+    <div class="container-fluid" id="about">
+        <div class=" container-fluid">
+            <h1 class=" ">About</h1>
+            <p class=" mb-4">Key West Dynasty is hybrid dynasty league created by Max Demianovich. The league is made up of  a group of air traffic controllers that were stationed in NAS Key West at some point in their career.</p>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Power Rankings Start -->
+    <div class="container-fluid" id="skill">
+        <div class="container-fluid">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="">Power Rankings</h1>
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="0.5s">
+                <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                    <li class="nav-item w-50">
+                        <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Week 3</button>
+                    </li>
+                    <li class="nav-item w-50">
+                        <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Week 4</button>
+                    </li>
+                    <li class="nav-item w-50">
+                        <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-3">Week 5</button>
+                    </li>
+                    <li class="nav-item w-50">
+                        <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-4">Week 6</button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row gy-5 gx-4">
+                            <h3 class="text-primary mb-3">1. Team cheeseburger1 (2-0)</h3>
+                            <p class=" mb-4">Even on what I deem to be an off week for this team with subpar games from Jefferson, Evans, and Kelce this team still put up over 120 points. Jalen Hurts appears to be the real deal and he is already in consideration for the real life MVP award. I kind of already hit on Patterson and how I don’t like him as much as the “experts” at ESPN but this teams bench could have beat me this week and could probably be considered a decent team. This is his BENCH y’all. I’m not sure I’ve ever seen a team this deep before and I don’t foresee this team ever leaving the #1 spot this year.</p>
+                            <h3 class="text-primary mb-3">2. Team Jblack1012 (2-0)</h3>
+                            <p class=" mb-4">Tyreke Hill showed he doesn’t necessarily need Patrick Mahomes to still be a stud. He came close to setting our league record for most points this week. Add in Chubb’s 3 TD performance and Jake had the highest score this week. This shows the potential of this team when its firing on all cylinders. Kinda surprised you are rostering 3 TE’s and OBJ you better hope you don’t sustain any major injuries because the lack of depth on the bench is slightly concerning.</p>
+                            <h3 class="text-primary mb-3">3. Jaylen Waffle (1-1)</h3>
+                            <p class=" mb-4">Tyreke wasn’t the only Dolphin WR to feast last week. Waddle had a studly game as well. Although I don’t expect both WR’s to have this good of a game simultaneously again never say never. I could see Waddle getting more open looks because defenders are more concerned with Tyreke. Sutton had a good game which is saying something the way Russel Wilson looks in the early part of his Broncos tenure. I see you picking up DeShaun Watson hopefully that works out for you later on this year. He should have all the rust knocked off by the time our playoffs start in Week 15.</p>
+                            <h3 class="text-primary mb-3">4. SKOL Fockers (1-1)</h3>
+                            <p class=" mb-4">Usually I don’t have someone ranked below someone they just beat due to some injuries and long term outlook I had to do it. Your Lions duo of Swift and St-Brown have been amazeballs so far. I don’t expect the Lions to constantly score this much but they are both going to fun to own this year. I can’t believe you almost dropped St-Brown before the draft SMH. Not sure if Father Time has caught up to Adam Thielen or not, Hopefully Herbert’s ribs aren't a major issue but with that team doctor you never know.....</p>
+                            <h3 class="text-primary mb-3">5. 3rd & ehh average (1-1</h3>
+                            <p class=" mb-4">You can never count you out when Lamar Jackson can singlehandedly keep you in a matchup. It helped that the Buc’s D got 26 points and your K added 13 but you had a great week even without them. Michael Thomas looks like he is rounding back into form that is music to your ears. Anytime you get a W and put up that many points without multiple studs (Kamara and Pittman) playing is a good sign. Very close to moving up to Tier 2</p>
+                            <h3 class="text-primary mb-3">6. PoopCity Stinkers (1-1) (2-0)</h3>
+                            <p class=" mb-4">The best WR core in the entire league carried you to victory this week. I don’t see why that cant continue all year. I do love getting double points with the QB-WR combo that was a savvy move. It does suck to see Lance go down looks like you got a decision to make as to whether you are gonna keep him for the year. For going zero RB you did pretty well I would say you are also close to moving up towards Tier 2.</p>
+                            <h3 class="text-primary mb-3">7. Team DONO (1-1)</h3>
+                            <p class=" mb-4">You had the unfortunate situation of playing the highest scoring team this week but you had a solid showing regardless. Zach Ertz coming back must make you pretty happy. Josh Allen is a stud he will be fun to own this year. I’m kinda glad we didn’t agree on anything with Najee before the draft because he hasn’t been off to a great start but maybe he turns things around. Doesn’t look like Etienne is the best back on the team right now but it’s still early</p>
+                            <h3 class="text-primary mb-3">8. Necessary Roughness (2-0)</h3>
+                            <p class=" mb-4">Sorry Dutch I can’t give you much credit beating me when we had the two lowest scores of the week. Your leading scorer was the Bill’s D again. Maybe the bad info you got will turn out to be a blessing in disguise. Might make up for Justin Fields being your only QB. It will be tough to get wins this way but I can’t imagine Chase has many bad games like this. Hopefully Cook starts cooking for you because your bench leaves some stuff to be desired.</p>
+                            <h3 class="text-primary mb-3">9. Mahoming Missile (1-1)</h3>
+                            <p class=" mb-4">Well......it was the best of times in week 1 and the worst of times in week 2. I’m sure I'm somewhere in the middle regarding the two outputs but it does suck being the lowest scorer of any given week. At least it seems Amari Cooper is back on track. I need to thank Jake for dropping Tyler Lockett for me to claim for $2 that will hopefully help me out at some point this year. I’m not going to panick yet.</p>
+                            <h3 class="text-primary mb-3">10. Team cammclendon (0-2)</h3>
+                            <p class=" mb-4">Really rough start to the season for you. I feel for you. You played me last week when I had the second highest point total and then this week you played Carl who scored the most points. Fantasy football is a cruel mistress sometimes. You probably should be higher on this list but the fact remains 0-2 isnt a good start even if its mostly bad luck related. It doesn’t get any easier for you this week having to play Belcher. I’m not saying 0-3 is a certainty but if I was a betting man I would have to say you will be 0-3 after this week.</p>
+                            <h3 class="text-primary mb-3">11. Bottom Feeders (0-2)</h3>
+                            <p class=" mb-4">We should probably start calling you Carl with how the Colts let you down. I’m not sure why they can’t beat the Jags but your fantasy team suffers when their offense suffers. I see you dropped one rookie this week so there's that. At least Garrett Wilson had a good week so maybe the future is starting to brighten up for you. I’m still a wee bit skeptical though.</p>
+                            <h3 class="text-primary mb-3">12. King Ramsey (0-2)</h3>
+                            <p class=" mb-4">Welcome to the league I guess? Rough start to be 0-2 with the lowest point total through two weeks. Has Father Time come for both TB12 and King Henry? It sure does look like it through the first two week but its still early. I’m done betting against TB12 for anything so hopefully both those guys bounce back otherwise it could be a long season ahead. You haven’t broken 100 points yet usually that’s the minimum for this league to even sniff a win. Except Dutch and I we set the league back a bit.</p>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row gy-5 gx-4">
+                            <h3 class="text-primary mb-3">1. 3rd & ehh average (2-1)</h3>
+                            <p class=" mb-4">Lamar Jackson is inevitable, in my opinion the most valuable keeper in the league. I’m sure a lot of people don’t agree with me but given how bad Baltimore’s defense has looked he’s gonna have to play this way all season. Questions at running back loom, will Kamara get back to his old self? Is Monty even the best back on the bears?  Breece looks promising but looks like a 50/50 split with Carter. I like the potential upside of your receivers, especially if “Slant Boy” gets back to his slanty way. This is my favorite team while Lamar is playing like he is but would drop if he slows down.</p>
+                            <h3 class="text-primary mb-3">2. Team cheeseburger 1 (3-0)</h3>
+                            <p class=" mb-4">I’m sure most will not agree with me putting Belcher at 2 but these are my rankings! With that being said, this team is a force to be reckoned with. Jalen Hurts is Lamar Jackson junior and leading one of the most potent offenses in the league. Travis Kelce and Mike Evans are dependable week in and week out. JJ seems to be going through a slump but he’s far too talented to be kept down for long. My main concern is your running backs, Ekeler is a stud but it seems like the Chargers are dialing back his usage a bit and Scordarrelle Patterson is running over people but I doubt that continues all season.</p>
+                            <h3 class="text-primary mb-3">3. Team Jblack1012 (2-1)</h3>
+                            <p class=" mb-4">There seems to be a theme here with mobile QB’s! Kyler should be using those legs more IMO and I think he will eventually. Nick Chubb is really good at football and I like picking up Dalton Shultz off waivers. Tyreek is one of the best receivers in a league but Ceedee needs to stop dropping bombs! You would have beat me last week if he caught that one he dropped. Your bench is non-existent however so hopefully your team stays healthy throughout the season and I absolutely cannot stand CEH. I cringe every time I see him play knowing that the Chiefs drafted him over Taylor, Swift, Akers, and even Dillon…plus he sucked on my team last year.</p>
+                            <h3 class="text-primary mb-3">4. Jaylen Waffle (2-1)</h3>
+                            <p class=" mb-4">I like how my team is trending! Dare I say Trevor has been looking...startable. I think my strong point is my pass catchers. Waddle is a total stud who is obviously benefiting off the extra attention Tyreek commands, AJ Brown looks great with the Eagles, and Sutton looks to be Russel’s top target so far. Trades for Pitts and Najee might be risky but I’m banking on the talent with Pitts (honestly, I’m just done with the TE position in fantasy) and heavy volume for Najee. That being said, Trevor still makes me nervous and none of my RB2’s inspire confidence. Oh and…..Jelani Woods baby! I’m gonna look like a genius in a couple years! haha</p>
+                            <h3 class="text-primary mb-3">5. PoopCity Stinkers (2-1)</h3>
+                            <p class=" mb-4">This team will ebb and flow with those incredible receivers. Zero RB has always been a cool strategy especially in PPR (except you forgot a TE!) In reality, both your RB’s are in a 50/50 split so you're actually not looking too bad. I have you 5th honestly because I feel like you need 30+ from those receivers week to week and Deebo appears in a slump. Upgrade at QB may be needed at some point if Stafford keeps playing like he has.</p>
+                            <h3 class="text-primary mb-3">6. Necessary Roughness (2-1)</h3>
+                            <p class=" mb-4">Ahh Dutch, I’m so happy to see you ditch Justin Fields even if it's just for Goff. I was high on the guy as well this season but it just doesn’t seem to be happening for him. I like your squad a lot but two low scoring weeks in a row is why I have you 6th. Jamar is a top tier WR and your RB’s are awesome (it hurt me a lot to trade away Saquan). Pat the Muth looks good but his volume has been trending down and I’m not totally sure how good Gabe Davis is. All in all this team is solid, and should bounce back and break 100 this week and hopefully Dalvin’s injury isn’t too serious.</p>
+                            <h3 class="text-primary mb-3">7. Team cammclendon (0-3)</h3>
+                            <p class=" mb-4">One of the roughest starts to the season I’ve seen. It’s gotta be hard watching Javonte split time with Melvin Gordon and unfortunately Keenan Allen has missed the last two games. On the bright side, Christian Kirk has been unbelievable, Aaron Jones looks like he’s still the lead guy in Green Bay, and Dallas Goedert looks dependable as usual. I am concerned with Aaron Rodgers however, looks like he’s really missing DA and maybe Juju gets going a little more throughout the season. I think the biggest factor here is: Will the Broncos ever be smart and unleash Javonte!</p>
+                            <h3 class="text-primary mb-3">8. King Ramsey (1-2)</h3>
+                            <p class=" mb-4">The King is back! King Henry finally got it going after a quiet week 1 and 2. Your running backs will either carry you or they won’t. Oh and I’m not forgetting about James Robinson either, what an absolute stud coming back from that injury the way he has. Dionte Johnson is awesome for PPR and Terry Mclaurin is a stud but I don’t like his situation this year. Unfortunately, Tom Brady looks like he gives no fucks this season, I don’t think Irv is that great, and CMC’s injury is always concerning. Solid team! Also see a lot of rookies on your bench for you to start building that dynasty with!</p>
+                            <h3 class="text-primary mb-3">9. Team DONO (1-2)</h3>
+                            <p class=" mb-4">Not sure how I feel about this team and have a lot of questions. Josh Allen is awesome, and it looks like the Bills are totally dependent on him to win, which should equate to many fantasy points. Bateman has been putting up numbers but only on 6 catches all season, I’m not sure if that’s sustainable. Mike Williams is pretty darn good but how will it be when Keenan gets back? Rhamondre had a big day last week but still is in a 50/50 timeshare with D. Harris, if anything were to happen to D. Harris, he’s a league winner for sure. Too many questions here right now but it's a long season.</p>
+                            <h3 class="text-primary mb-3">10. SKOL Fockers (1-2)</h3>
+                            <p class=" mb-4">What can I say, Sungod is an absolute star but is it smart to invest so much in the Lions offense? Time will tell but so far so good. Swift is already nicked up though and it seems the Rams tricked us Week 1 into believing Henderson was the lead back there. In addition, Herbert is banged up as well. Injuries are always a bummer but on the bright side it looks like you may have struck gold with Olave! In the end, your team is riding on Swift, because when he plays, he’s electric. As for Kittle, I just have a bad feeling in general for the 49ers offense this year and injuries are always a thing with him as well.</p>
+                            <h3 class="text-primary mb-3">11. Bottom Feeders (1-2)</h3>
+                            <p class=" mb-4">I just don’t see it for you this year Dade. The three bright spots I see right now are Mark Andrews, Devonta, and John Taylor. Everything else just seems meh. I love Tua but I do believe that game vs the Ravens was an anomaly and I think Garret Wilson has top tier talent but seems like he might be inconsistent as a rookie and how will Zach Wilson's return impact him? I think Khalil Herbert deserves more touches as well given how he’s looked every time Monty goes down. Time will tell with your young team of rookies.</p>
+                            <h3 class="text-primary mb-3">12. Mahoming Missile (1-2)</h3>
+                            <p class=" mb-4">Sorry Max but with lowest points thus far and at 1-2 I had to put you here. Although it seems like some of your problems can be solved by just starting Amari Cooper from now on. I don’t think you’re out of it by any means, just a slow start so far. Tony Pollard looks like he may take that RB1 spot from Zeke and he should IMO. Looks like Connors touchdown total will regress this season which is what made him valuable to begin with and I don’t know what’s going on with Dillon. Devante Adams will bounce back to putting up gaudy numbers eventually, but I think he is also realizing that Carr is no Rodgers. This is a weird one for me because I actually think your team is a top 5 squad, they just haven’t shown it yet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Expertise End -->
+            <!-- Projects Start -->
+            <div class="container-xxl py-6 pt-5" id="project">
+                <div class="container">
+                    <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-6">
+                            <h1 class="display-5 mb-0">My Projects</h1>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                                <li class="mx-3 active" data-filter="*">All Projects</li>
+                                <li class="mx-3" data-filter=".first">Data Science</li>
+                                <li class="mx-3" data-filter=".second">Web Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="{% static 'app/img/project-1.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-1.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item second">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="{% static 'app/img/project-2.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-2.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="% static 'app/img/project-3.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-3.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item second">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="% static 'app/img/project-4.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-4.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item first">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="% static 'app/img/project-5.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-5.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item second">
+                            <div class="portfolio-img rounded overflow-hidden">
+                                <img class="img-fluid" src="% static 'app/img/project-6.jpg' %}" alt="">
+                                <div class="portfolio-btn">
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="{% static 'img/project-6.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projects End -->
+            <!-- Contact Form Start -->
+            <div class="container-xxl py-6 pt-5" id="contact">
+                <div class="container-fluid">
+                    <div class="row vh-100 align-items-center justify-content-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="contact-form bg-white shadow rounded p-5">
+                                <h2 class="text-center fw-bold">Let's Work Together!</h2>
+                                <h5 class="text-center fw-bold mb-4">Contact Me</h5>
+                                <div id="alertMessage"></div>
+                                <form id="contactForm" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="col-sm-6 control-group">
+                                            <input type="text" class="form-control py-2" id="name" placeholder="Your Name"
+                                                   required="required" data-validation-required-message="Please enter your name" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="col-sm-6 control-group">
+                                            <input type="email" class="form-control py-2" id="email" placeholder="Your Email"
+                                                   required="required" data-validation-required-message="Please enter your email" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="col-12 control-group">
+                                            <input type="text" class="form-control py-2" id="subject" placeholder="Subject"
+                                                   required="required" data-validation-required-message="Please enter a subject" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="col-12 control-group">
+                                            <textarea class="form-control" rows="4" id="message" placeholder="Message"
+                                                      required="required"
+                                                      data-validation-required-message="Please enter your message"></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100 py-2" type="submit" id="sendMessageButton">
+                                                <span>SEND</span>
+                                                <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form End -->
+            <!-- Copyright Start -->
+            <div class="container-fluid bg-dark text-white py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{% static 'app/lib/wow/wow.min.js' %}"></script>
+        <script src="{% static 'app/lib/easing/easing.min.js' %}"></script>
+        <script src="{% static 'app/lib/waypoints/waypoints.min.js' %}"></script>
+        <script src="{% static 'app/lib/typed/typed.min.js' %}"></script>
+        <script src="{% static 'app/lib/counterup/counterup.min.js' %}"></script>
+        <script src="{% static 'app/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'app/lib/isotope/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'app/lib/lightbox/js/lightbox.min.js' %}"></script>
+
+        <!-- Template Javascript -->
+        <script src="{% static 'app/js/main.js' %}"></script>
+        <!-- Contact Form Javascript -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact-form.js"></script>
+</body>
+
+</html>
